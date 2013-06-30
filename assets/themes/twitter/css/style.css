@@ -72,6 +72,10 @@ body {
     font-weight: 200;
 }
 
+.content h2 {
+    margin-top: 60px;
+}
+
 .navbar {
     font-family: 'Fauna One';
 }

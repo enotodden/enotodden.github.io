@@ -2,9 +2,9 @@
 layout: post
 category : turbo
 tagline: 
-tags : []
+tags : [turbo]
 summary: >
-    A simple step-by-step to get started with the blazing fast Turbo web framework.
+    A collection of simple examples to get started with the blazing fast Turbo web framework.
 
 ---
 
@@ -61,7 +61,6 @@ by specifying TURBO\_PREFIX.
 
 
 Now that we have Turbo installed, it's time to go through some examples..
-<br>
 
 ## Hello World 
 
@@ -81,14 +80,13 @@ Explanation:
 Usage and output:
 
 <pre>
-    $ LuaJIT helloworld.lua
+$ LuaJIT helloworld.lua
 </pre>
 <pre>
-    $ curl localhost:8888/hello
-    Hello World!
+$ curl localhost:8888/hello
+Hello World!
 </pre>
 
-<br>
 
 ## Request parameters
 
@@ -107,26 +105,24 @@ Explanation:
 Usage and output:
 
 <pre>
-    $ LuaJIT hello_name.lua
+$ LuaJIT hello_name.lua
 </pre>
 <pre>
-    $ curl 'localhost:8888/hello?name=Espen'
-    Hello Espen!
+$ curl 'localhost:8888/hello?name=Espen'
+Hello Espen!
 </pre>
 <pre>
-    $ curl localhost:8888/hello
-    Hello Santa Claus!
+$ curl localhost:8888/hello
+Hello Santa Claus!
 </pre>
 <pre>
-    $ curl -X POST localhost:8888/hello -d name=Espen
-    Hello Espen!
+$ curl -X POST localhost:8888/hello -d name=Espen
+Hello Espen!
 </pre>
 <pre>
-    $ curl -X POST localhost:8888/hello
-    Hello Easter Bunny!
+$ curl -X POST localhost:8888/hello
+Hello Easter Bunny!
 </pre>
-
-<br>
 
 ## Routes
 
@@ -139,8 +135,6 @@ Lua patterns can also be used for routing.
 <script src="https://gist.github.com/enotodden/5896849.js">
 </script>
 
-<br>
-
 ## Serving Static Files
 
 At least for development purposes, it's often useful to be able to serve static
@@ -150,8 +144,6 @@ Turbo makes this really easy with the built in turbo.web.StaticFileHandler.
 
 <script src="https://gist.github.com/enotodden/5896926.js">
 </script>
-
-<br>
 
 ## JSON Output
 
@@ -165,6 +157,6 @@ serialize the table for you.
 </script>
 
 <br>
-<br>
 
-
+That's it for now. I'll update this post with more stuff later on and get a review 
+from the Turbo creator to verify correctness.
