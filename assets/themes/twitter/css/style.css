@@ -63,3 +63,43 @@
   background: #57A957;
   border: 1px solid #4c964d;
   color: #FFF; }
+
+
+/*Customizations of default theme*/
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+}
+
+.navbar {
+    font-family: 'Fauna One';
+}
+
+.post-date {
+    font-size: .9em;
+    margin-bottom: 15px;
+}
+
+.post {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #cccFFF;
+}
+
+.posts h1 {
+    font-size: 1.8em;
+}
+
+
+footer {
+    padding-top: 40px;
+}
+
+.page-header {
+    border-bottom: none;
+    margin-bottom: 0px;
+}
+
+.content {
+    margin-bottom: 50px;
+}
