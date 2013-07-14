@@ -8,11 +8,6 @@ summary: >
 
 ---
 
-<div class="alert">
-    <strong>IMPORTANT:</strong> This post is awaiting review from Turbo creator.
-</div>
-
-
 The [Turbo](https://github.com/kernelsauce/turbo) web framework is really exciting, but since it's new and under heavy
 development it lacks the documentation and Q&A resources of more established
 projects. So I thought I'd do a writeup on how to get going with it.
