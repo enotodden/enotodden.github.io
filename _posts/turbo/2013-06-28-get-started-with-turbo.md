@@ -15,7 +15,6 @@ projects. So I thought I'd do a writeup on how to get going with it.
 <div class="alert">
     <strong>NOTE:</strong> Since Turbo is new and under heavy development, the contents of this
     tutorial might become outdated quickly. I'll try to update this to comply with the latest version.
-    But for reference, this is based on turbo:cfe3b9314ad18e5c2060f82f0db0023e190f82c9 
 </div>
 
 I'm assuming that you know the Lua language and that you are that you have used an 
@@ -52,7 +51,7 @@ elsewhere. There's also apt-get'able packages on some distros.
 Alternatively, you can also install turbo to a different place than /usr/local
 by specifying TURBO\_PREFIX.
 
-    $ make install TURBO_PREFIX=/path/to/my/dir
+    $ make install PREFIX=/path/to/my/dir
 
 
 Now that we have Turbo installed, it's time to go through some examples..
@@ -153,5 +152,8 @@ serialize the table for you.
 
 <br>
 
-That's it for now. I'll update this post with more stuff later on and get a review 
-from the Turbo creator to verify correctness.
+That's it for now. I'll update this post with more stuff later on.
+
+<br>
+Changelog:
++ Changed `TURBO_PREFIX` to `PREFIX` since this was changed in commit `b6008de2b7f9228b2362b988a4f3c54d5bf4d11e`
