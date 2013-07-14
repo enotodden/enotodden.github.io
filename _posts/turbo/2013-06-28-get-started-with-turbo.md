@@ -53,6 +53,21 @@ by specifying TURBO\_PREFIX.
 
     $ make install PREFIX=/path/to/my/dir
 
+### Alternative installation using turbo-virtual-env
+
+If you want to install Turbo and LuaJIT in a self-contained directory
+to avoid modifying system-wide stuff, you can use my [turbo-virtual-env](https://github.com/enotodden/turbo-virtual-env) script.
+
+This will install everything in the directory passed to the `--create` parameter.
+
+    $ cd /some/dir
+    $ curl https://raw.github.com/enotodden/turbo-virtual-env/master/turbo-virtual-env | bash -s - --create ./env
+
+To start using the newly installed LuaJIT and Turbo, just source the 'activate' script located in /some/dir/env/bin/activate
+    
+    $ . env/bin/activate
+
+<hr>
 
 Now that we have Turbo installed, it's time to go through some examples..
 
@@ -157,3 +172,4 @@ That's it for now. I'll update this post with more stuff later on.
 <br>
 Changelog:
 + Changed `TURBO_PREFIX` to `PREFIX` since this was changed in commit `b6008de2b7f9228b2362b988a4f3c54d5bf4d11e`
++ Added alternative installation instructions using turbo-virtual-env
