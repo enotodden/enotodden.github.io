@@ -9,7 +9,7 @@ summary: >
 
 ---
 
-In the Python world, we have a tool called virtual-env for creating self-contained
+In the Python world, we have a tool called [virtual-env](http://www.virtualenv.org) for creating self-contained
 directories (aka virtual environments) with a python installation and package management.
 
 I missed this when using Turbo, so I made a simple virtual-env tool for working
@@ -21,11 +21,18 @@ The script has it's own git repo at [https://github.com/enotodden/turbo-virtual-
 
 **Features**:
 - Installs LuaJIT, Turbo and LuaRocks in a self-contained directory/virtual enviroment
+- Creates an `activate` script like the one the Python tool has for sourcing in the shell.
 - Optionally reads a 'requirements' file and passes each line to `luarocks install`
 - Optional Turbo Development mode (`--turbo-dev`) that creates an environment to 
   work on the code from an existing Turbo source tree.
 
 <br>
+
+**Installation**:
+
+    curl https://raw.github.com/enotodden/turbo-virtual-env/master/turbo-virtual-env > /some/where/in/PATH/turbo-virtual-env
+    chmod +x /some/where/in/PATH/turbo-virtual-env
+
 
 **Basic usage**:
 
