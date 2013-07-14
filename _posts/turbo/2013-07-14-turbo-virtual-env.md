@@ -33,6 +33,7 @@ The script has it's own git repo at [https://github.com/enotodden/turbo-virtual-
     curl https://raw.github.com/enotodden/turbo-virtual-env/master/turbo-virtual-env > /some/where/in/PATH/turbo-virtual-env
     chmod +x /some/where/in/PATH/turbo-virtual-env
 
+<br>
 
 **Basic usage**:
 
@@ -45,4 +46,10 @@ The script has it's own git repo at [https://github.com/enotodden/turbo-virtual-
 This example shows how to create a new virtual environment with turbo-virtual-env.
 <script src="https://gist.github.com/enotodden/5994524.js">
 </script>
+
+
+<br>
+
+That's it, hopefully this can be a useful tool for people hacking on Turbo or
+developing applications with LuaJIT.
 
