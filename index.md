@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hello World!
+title: Espen Notodden's Blog
 
 ---
 {% include JB/setup %}
