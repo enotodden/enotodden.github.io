@@ -5,16 +5,15 @@ title: "Getting started with TurboRedis - Part 1: 'Hello World'"
 tagline: 
 tags : [turbo, redis, turboredis]
 summary: >
-    A getting started tutorial for TurboRedis that walks through the essential
-    steps of using TurboRedis in a Turbo-based web application.
+    A getting started tutorial for TurboRedis. Part 1.
 
 ---
 
 
 In October I started writing a Redis library for Turbo, mostly for my own
-personal use. But since then it has grown to be a pretty stable library, and
-I thought it might be useful for others. I realize however that it's lacking
-some documentation and some practical examples.
+personal use. But since then it has grown to be a pretty stable library 
+(it needs some work and testing before I put a version number on it).
+I realize however that it's lacking some usable documentation and some practical examples.
 
 So I decided to do a 'Get Started' tutorial walking through the features
 and use-cases of TurboRedis by example. I'll start off today with a simple
