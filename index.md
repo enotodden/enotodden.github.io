@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Espen Notodden's Blog
-
+title: "'Blog'"
 ---
+
 {% include JB/setup %}
 
 
@@ -18,6 +18,7 @@ title: Espen Notodden's Blog
                 {{ post.summary }}
             </div>
         </div>
+        <div style="margin-bottom:4rem;"></div>
     {% endfor %}
 </div>
 
