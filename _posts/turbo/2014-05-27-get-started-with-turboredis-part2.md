@@ -10,7 +10,7 @@ summary: >
 ---
 
 *This is part 2 of the 'Getting started with TurboRedis' tutorial, I recommend
-reading [part 1]() if you haven't done so yet.*
+reading [part 1](/turbo/2014/05/26/get-started-with-turboredis-part1/) if you haven't done so yet.*
 
 We're back. And now that we have the boilerplate stuff done, it's time
 for a more useful example.
