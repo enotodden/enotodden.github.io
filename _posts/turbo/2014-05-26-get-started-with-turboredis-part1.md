@@ -1,7 +1,7 @@
 ---
 layout: post
 category : turbo
-title: "Getting started with TurboRedis - Part 1: 'Hello World'"
+title: "TurboRedis By Example - Part 1: 'Hello World'"
 tagline: 
 tags : [turbo, redis, turboredis]
 summary: >

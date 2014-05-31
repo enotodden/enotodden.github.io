@@ -1,7 +1,7 @@
 ---
 layout: post
 category : turbo
-title: "Getting started with TurboRedis - Part 2: 'Caching GitHub API requests'"
+title: "TurboRedis By Example - Part 2: 'Caching GitHub API requests'"
 tagline: 
 tags : [turbo, redis, turboredis]
 summary: >
@@ -9,7 +9,7 @@ summary: >
 
 ---
 
-*This is part 2 of the 'Getting started with TurboRedis' tutorial, I recommend
+*This is part 2 of the 'TurboRedis By Example' tutorial, I recommend
 reading [part 1](/turbo/2014/05/26/get-started-with-turboredis-part1/) if you haven't done so yet.*
 
 We're back. And now that we have the boilerplate stuff done, it's time
